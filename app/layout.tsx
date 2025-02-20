@@ -28,11 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {copilotApiKey ? (
+        {/* {copilotApiKey ? (
           <CopilotKit publicApiKey={copilotApiKey}>{children}</CopilotKit>
         ) : (
           <>{children}</>
-        )}
+        )} */}
+          <>{children}</>
       </body>
     </html>
   );
