@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@copilotkit/react-core": "^1.5.17",
-    "@copilotkit/react-textarea": "^1.5.17",
-    "@copilotkit/react-ui": "^1.5.17",
-    "@copilotkit/runtime": "^1.5.17",
+    "@clerk/nextjs": "^6.12.0",
+    "@copilotkit/react-core": "^1.5.20",
+    "@copilotkit/react-textarea": "^1.5.20",
+    "@copilotkit/react-ui": "^1.5.20",
+    "@copilotkit/runtime": "^1.5.20",
     "@heroicons/react": "^2.2.0",
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.2",
